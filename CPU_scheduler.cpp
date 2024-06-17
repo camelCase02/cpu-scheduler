@@ -257,16 +257,13 @@ int main(){
     int sf=0,sff=0;
     for(int i=0;i<n;i++){
         sf+=arrTime[i];
-        //cout<<arrTime[i]<<' ';
     }
     for(int i=0;i<n;i++){
         sff+=burstTime[i];
-        //cout<<burstTime[i]<<' ';
     }
     double c1=(double)sf/(double)n;
     double c2=(double)sff/(double)n;
     inputFile.close();
-    //cout<<"1";
     cout<<'\n';
     vector<int> finishTime;
     vector<int> turnTime;
@@ -280,7 +277,6 @@ int main(){
     outputFile<<'\n';
     for(int i=0;i<n;i++){
         s1+=finishTime[i];
-       //outputFile<<finishTime[i]<<' ';
     }
     double a1=(double)s1/(double)n;
     outputFile<<a1;
@@ -288,7 +284,6 @@ int main(){
     s1=0;
     for(int i=0;i<n;i++){
         s1+=turnTime[i];
-        //outputFile<<turnTime[i]<<' ';
     }
     a1=(double)s1/(double)n;
     outputFile<<a1;
@@ -296,7 +291,6 @@ int main(){
     s1=0;
     for(int i=0;i<n;i++){
         s1+=waitTime[i];
-        //outputFile<<waitTime[i]<<' ';
     }
     a1=(double)s1/(double)n;
     outputFile<<a1;
@@ -309,7 +303,6 @@ int main(){
     outputFile<<'\n';
     for(int i=0;i<n;i++){
         s1+=finishTime[i];
-       //outputFile<<finishTime[i]<<' ';
     }
     a1=(double)s1/(double)n;
     outputFile<<a1;
@@ -317,7 +310,6 @@ int main(){
     s1=0;
     for(int i=0;i<n;i++){
         s1+=turnTime[i];
-        //outputFile<<turnTime[i]<<' ';
     }
     a1=(double)s1/(double)n;
     outputFile<<a1;
@@ -325,7 +317,6 @@ int main(){
     s1=0;
     for(int i=0;i<n;i++){
         s1+=waitTime[i];
-        //outputFile<<waitTime[i]<<' ';
     }
     a1=(double)s1/(double)n;
     outputFile<<a1;
@@ -338,7 +329,6 @@ int main(){
     outputFile<<'\n';
     for(int i=0;i<n;i++){
         s1+=finishTime[i];
-       //outputFile<<finishTime[i]<<' ';
     }
     a1=(double)s1/(double)n;
     outputFile<<a1;
@@ -346,7 +336,6 @@ int main(){
     s1=0;
     for(int i=0;i<n;i++){
         s1+=turnTime[i];
-        //outputFile<<turnTime[i]<<' ';
     }
     a1=(double)s1/(double)n;
     outputFile<<a1;
@@ -354,7 +343,6 @@ int main(){
     s1=0;
     for(int i=0;i<n;i++){
         s1+=waitTime[i];
-        //outputFile<<waitTime[i]<<' ';
     }
     a1=(double)s1/(double)n;
     outputFile<<a1;
@@ -367,7 +355,6 @@ int main(){
     outputFile<<'\n';
     for(int i=0;i<n;i++){
         s1+=finishTime[i];
-       //outputFile<<finishTime[i]<<' ';
     }
     a1=(double)s1/(double)n;
     outputFile<<a1;
@@ -375,7 +362,6 @@ int main(){
     s1=0;
     for(int i=0;i<n;i++){
         s1+=turnTime[i];
-        //outputFile<<turnTime[i]<<' ';
     }
     a1=(double)s1/(double)n;
     outputFile<<a1;
@@ -383,7 +369,6 @@ int main(){
     s1=0;
     for(int i=0;i<n;i++){
         s1+=waitTime[i];
-        //outputFile<<waitTime[i]<<' ';
     }
     a1=(double)s1/(double)n;
     outputFile<<a1;
